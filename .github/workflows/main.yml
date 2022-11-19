@@ -2,8 +2,8 @@
 name: housework_bot
 on:
   schedule:
-    # 定期実行する時間 30分おきを指定
-    - cron: '30 * * * *'
+    # 定期実行する時間 毎週金曜日の10時に実行
+    - cron: '0 10 * * 5'
 
 jobs:
   build:
