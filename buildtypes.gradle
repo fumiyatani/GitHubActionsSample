@@ -1,0 +1,13 @@
+android {
+    buildTypes {
+        debug {
+            println("BuildType is debug")
+        }
+        pre {
+            println("BuildType is pre")
+        }
+        release {
+            println("BuildType is release")
+        }
+    }
+}
