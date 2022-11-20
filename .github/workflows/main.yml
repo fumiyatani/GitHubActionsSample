@@ -17,8 +17,8 @@ jobs:
     steps:
       # ここでファイルの操作とかできるらしい。
       # 一旦30分起きに Hello world! させてみる
+      - uses: actions/checkout@v2
       - name: Hello world
-        uses: actions/checkout@v2
         run: |
           echo "Hello world!"
 
